@@ -4,7 +4,6 @@ This is a simple command-line calculator implemented in Java. It supports basic 
 
 Usage
 Compile the Calculator:
-
 Compile the Calculator.java file using a Java compiler.
 
 sh
@@ -19,7 +18,7 @@ Copy code
 java Calculator
 Follow the on-screen prompts to:
 
-Select the operation (1/2/3/4).
+Select the operation (+/-/*/% and /).
 Enter two numbers.
 View the Result:
 
@@ -45,17 +44,23 @@ java Calculator
 Example
 markdown
 Copy code
-Java Calculator
-1. Addition
-2. Subtraction
-3. Multiplication
-4. Division
 
-Enter the Operation (1/2/3/4): 1
+
+Java Calculator
+ Addition -- '+'
+ Subtraction -- '-'
+ Multiplication -- '*'
+ Division -- '/'
+ Modulus -- '%'
+
+Enter the Operation (+/-/*/% and /):
+
+
 Enter the first number: 5
 Enter the second number: 3
-
 Addition Result: 8.0
+
+
 Notes
 Ensure Java is installed on your system.
 For division, avoid entering zero as the second number to prevent division by zero errors.
